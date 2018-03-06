@@ -1,0 +1,24 @@
+<dl class="author">
+	<dt>本周推荐</dt>
+	<dd ng-repeat="post in posts">
+		<div class="avatar">
+			<img ng-src="{{post.avatar}}" alt="">
+		</div>
+		<div class="info">
+			<h5>{{post.name}}</h5>
+			<p>{{post.editor_notes}}</p>
+		</div>
+	</dd>
+	<dt>热门作者</dt>
+	<dd>
+		<div class="avatar">
+			<img src="./uploads/avatar_3.png" alt="">
+		</div>
+		<div class="info">
+			<h5>风行水上</h5>
+			<p>本名高军，画家</p>
+		</div>
+	</dd>
+</dl>
+
+
